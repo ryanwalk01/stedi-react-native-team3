@@ -38,6 +38,17 @@ export function HelloLandon(props){
     );
 }
 
+// make a button that will display hello Matthew when pressed
+export function HelloMatthew(props){
+    return(
+        <View style={styles.login}>
+            <Text>Hello Matthew</Text>
+            <Button title="Landonbutton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+  </View>
+
+    );
+}
+
 // make a button that will display hello Landon when pressed
 export function HelloGrant(props){
     return(
