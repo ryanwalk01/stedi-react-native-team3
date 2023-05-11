@@ -45,7 +45,6 @@ export function HelloMatthew(props){
             <Text>Hello Matthew</Text>
             <Button title="Landonbutton" onPress={()=>props.setUserLoggedIn(true)}></Button>
   </View>
-
     );
 }
 
@@ -55,6 +54,16 @@ export function HelloGrant(props){
         <View style={styles.login}>
             <Text>Hello Grant</Text>
             <Button title="grantButton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+        </View>
+
+    );
+}
+
+export function HelloSamantha(props){
+    return(
+        <View style={styles.login}>
+            <Text>Hello Samantha</Text>
+            <Button title="SamanthaButton" onPress={()=>props.setUserLoggedIn(true)}></Button>
         </View>
 
     );
