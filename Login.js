@@ -59,7 +59,7 @@ export function HelloGrant(props){
 }
 
 // make a button that will display "Hello Ryan" when pressed
-export function HelloRyanW(props){
+export function HelloRyan(props){
     return(
         <View style={styles.login}>
             <Text>Hello Ryan</Text>
