@@ -42,7 +42,7 @@ export function HelloMatthew(props){
     return(
         <View style={styles.login}>
             <Text>Hello Matthew</Text>
-            <Button title="Landonbutton" onPress={()=>props.setUserLoggedIn(true)}></Button>
+            <Button title="Matthewbutton" onPress={()=>props.setUserLoggedIn(true)}></Button>
   </View>
     );
 }
